@@ -1,0 +1,21 @@
+.MobileNav {
+    background-color: var(--secondary-color);
+    height: 60px;
+  }
+  .MobileNav .logo {
+    color: var(--primary-color);
+    font-size: 28px;
+  }
+  .MobileNav svg {
+    fill: var(--secondary-color);
+    height: 14px;
+    width: 14px;
+  }
+  .mobileNav-socialLinks {
+    gap: 5px;
+  }
+  .mobileNav-socialLinks a {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 7px;
+  }

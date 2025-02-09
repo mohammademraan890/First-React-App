@@ -1,0 +1,13 @@
+.mainDiv {
+    position: relative;
+    overflow: hidden;
+  }
+  .background-btm-img {
+    background-image: url(../Images/canvaImg.jpg);
+    height: 2000px;
+    width: 2000px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    transform: translateY(73%) rotate(74deg);
+  }
