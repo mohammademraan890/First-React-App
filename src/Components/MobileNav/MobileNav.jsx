@@ -44,18 +44,18 @@ const MobileNav = () => {
       </div>
 
 
-      <div class="offcanvas offcanvas-lg offcanvas-top" tabindex="-1" id="offcanvasTop"
+      <div className="offcanvas offcanvas-lg offcanvas-top" tabIndex="-1" id="offcanvasTop"
         aria-labelledby="offcanvasTopLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasTopLabel">
-                <div class="centerNav-center">
+        <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasTopLabel">
+                <div className="centerNav-center">
                     <Logo firstColor={"var(--secondary-color)"} secondColor={"var(--rare-color)"} />
                 </div>
             </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <ul class="d-flex main-ul fw-medium flex-column ">
+        <div className="offcanvas-body">
+            <ul className="d-flex main-ul fw-medium flex-column ">
             {NavLinks.map((navItem) => (
             <li key={navItem.id} className={`${navItem.subLinks ? "dropdown" : ""}`}>
               {navItem.subLinks ? (
