@@ -29,7 +29,6 @@ const ProgressSec = () => {
         src="/Assests/assets/videoBack.mp4"
         muted
         loop
-        autoPlay
       />
 
       <div className="custom-container progress-section-container">

@@ -1,5 +1,6 @@
 import React from 'react'
 // import './SeactionsHeading.css'
+import "./SectionsHeading.css"
 const SeactionsHeading = ({title , Color , maxWidth , margin=0}) => {
   return (
     <div className='section-heading'>

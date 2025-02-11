@@ -6,7 +6,7 @@ const TestimonialSec = () => {
   return (
     <div className="testimonial-sec">
     <div className=" custom-container testimonial-sec-container">
-        <div className="row g-0 d-flex align-items-end">
+        <div className="row g-0 d-flex align-items-start">
             <div className="col-md-6 col-sm-12">
                 <TestimonialLeft />
             </div>

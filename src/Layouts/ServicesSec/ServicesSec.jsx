@@ -13,7 +13,7 @@ const ServicesSec = () => {
              "Reliable & High Quality Laboratory Service"
           }
           Color={"var(--rare-color)"}
-          maxWidth={"40%"}
+          maxWidth={"49%"}
           margin={"auto"}
         />
         <p className="services-sec-top-desc align-self-center">

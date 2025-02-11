@@ -25,6 +25,7 @@
   }
   .menuNav-container ul li a {
     color: var(--txt-color2);
+    font-weight: 500;
     font-size: clamp(12px,1vw,15px);
   }
   .menuNav .activeLink{
