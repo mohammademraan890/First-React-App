@@ -1,7 +1,7 @@
 import React from "react";
 import "./TestimonialLeft.css";
-import Buttons from "../Includes/Button/Buttons";
-import SeactionsHeading from "../Includes/SectionsHeading/SeactionsHeading";
+import Buttons from "../../Includes/Button/Buttons";
+import SeactionsHeading from "../../Includes/SectionsHeading/SeactionsHeading";
 const TestimonialLeft = () => {
   return (
     <div className="testimonial-sec-left">

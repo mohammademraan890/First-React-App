@@ -1,6 +1,6 @@
 import React from 'react'
-import TestimonialLeft from '../../TestimonialLeft/TestimonialLeft'
-import TestimonialSlider from '../../TestimonialSlider/TestimonialSlider'
+import TestimonialLeft from '../../TestimonialSecParts/TestimonialLeft/TestimonialLeft'
+import TestimonialSlider from '../../TestimonialSecParts/TestimonialSlider/TestimonialSlider'
 import './TestimonialSec.css'
 const TestimonialSec = () => {
   return (

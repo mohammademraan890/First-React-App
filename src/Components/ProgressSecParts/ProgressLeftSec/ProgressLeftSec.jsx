@@ -1,8 +1,8 @@
 import React from "react";
-import SeactionsHeading from "../Includes/SectionsHeading/SeactionsHeading";
-import { ProgressCardsData } from "../../Data";
-import ServiceCard from "../Includes/ServiceCard/ServiceCard";
-import Buttons from "../Includes/Button/Buttons";
+import SeactionsHeading from "../../Includes/SectionsHeading/SeactionsHeading";
+import { ProgressCardsData } from "../../../Data";
+import ServiceCard from "../../Includes/ServiceCard/ServiceCard";
+import Buttons from "../../Includes/Button/Buttons";
 import "./ProgressLeftSec.css";
 const ProgressLeftSec = () => {
   return (

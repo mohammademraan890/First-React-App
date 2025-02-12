@@ -1,5 +1,6 @@
 import React from "react";
-import CenterNav from "../../CenterNav/CenterNav";
+// import {CenterNav} from "../../../imports";
+import CenterNav from "../../CenterNav/CenterNav"
 import MenuNav from "../../MenuNav/MenuNav";
 import "./Header.css";
 import TopNav from "../../TopNav/TopNav";

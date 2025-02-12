@@ -1,7 +1,7 @@
 import React from "react";
-import { ContactOfficeDetails } from "../../Data";
+import  {ContactOfficeDetails}  from "../../../Data";
 import "./ContactPageAddress.css";
-const ContactPageAddress = () => {
+ const ContactPageAddress = () => {
   return (
     <div className="contact-right-address-sec">
       {ContactOfficeDetails.map((item) => {
@@ -22,4 +22,4 @@ const ContactPageAddress = () => {
   );
 };
 
-export default ContactPageAddress;
+export default ContactPageAddress

@@ -3,7 +3,7 @@ import "./ServicesSec.css";
 import SeactionsHeading from "../../Includes/SectionsHeading/SeactionsHeading";
 import { SrvicesCardsData } from "../../../Data";
 import ServiceCard from "../../Includes/ServiceCard/ServiceCard";
-const ServicesSec = () => {
+ const ServicesSec = () => {
   return (
     <div className="services-section">
       <div className="background-top-img"></div>

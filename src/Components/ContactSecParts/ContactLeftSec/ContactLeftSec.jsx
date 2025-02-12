@@ -1,8 +1,8 @@
 import React from "react";
 import ContactPageAddress from "../ContactPageAddress/ContactPageAddress";
 import "./ContactLeftSec.css";
-import SeactionsHeading from "../Includes/SectionsHeading/SeactionsHeading";
-const ContactLeftSec = () => {
+import SeactionsHeading from "../../Includes/SectionsHeading/SeactionsHeading";
+ const ContactLeftSec = () => {
   return (
     <div className="col-md-6 col-sm-12 contact-us-right">
       <SeactionsHeading title="We Ensure You Will Always Get The Best Result" Color="var(--rare-color)" maxWidth="90%" margin="0px 0px 16px 0px" />
@@ -21,5 +21,4 @@ const ContactLeftSec = () => {
     </div>
   );
 };
-
-export default ContactLeftSec;
+export default ContactLeftSec

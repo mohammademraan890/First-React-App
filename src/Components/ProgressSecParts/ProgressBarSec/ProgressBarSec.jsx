@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProgressBarSec.css";
 import ProgressBar from "../ProgressBar/ProgressBar";
-import { ProgressBarsData } from "../../Data";
+import { ProgressBarsData } from "../../../Data";
 const ProgressBarSec = () => {
   return (
     <div className="progress-bars-section d-flex flex-column align-items-start justify-content-center">

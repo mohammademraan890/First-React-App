@@ -1,5 +1,5 @@
 import React from "react";
-import { TestimonialsSliderData } from "../../Data";
+import { TestimonialsSliderData } from "../../../Data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules"; 
 import "swiper/css";

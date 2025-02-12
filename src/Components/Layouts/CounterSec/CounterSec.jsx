@@ -1,5 +1,5 @@
 import React from 'react'
-import CounterImgSec from '../../CounterImgSec/CounterImgSec'
+import CounterImgSec from '../../CounterSecParts/CounterImgSec/CounterImgSec'
 import CounterCircleSec from '../../CounterCircleSec/CounterCircleSec'
 import './CounterSec.css'
 import SeactionsHeading from '../../Includes/SectionsHeading/SeactionsHeading'

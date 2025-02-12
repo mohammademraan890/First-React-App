@@ -1,5 +1,5 @@
 import React from "react";
-import CounterCircle from "../Includes/CounterCircle/CounterCircle";
+import CounterCircle from "../../Includes/CounterCircle/CounterCircle";
 import "./CounterCircleSec.css";
 const CounterCircleSec = () => {
   return (
