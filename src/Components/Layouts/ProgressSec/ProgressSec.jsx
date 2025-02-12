@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./ProgressSec.css";
-import ProgressLeftSec from "../../Components/ProgressLeftSec/ProgressLeftSec";
-import ProgressBarSec from "../../Components/ProgressBarSec/ProgressBarSec";
+import ProgressLeftSec from "../../ProgressLeftSec/ProgressLeftSec";
+import ProgressBarSec from "../../ProgressBarSec/ProgressBarSec";
 
 const ProgressSec = () => {
   const videoRef = useRef(null);

@@ -1,7 +1,7 @@
 import React from "react";
 import ContactPageAddress from "../ContactPageAddress/ContactPageAddress";
 import "./ContactLeftSec.css";
-import SeactionsHeading from "../SectionsHeading/SeactionsHeading";
+import SeactionsHeading from "../Includes/SectionsHeading/SeactionsHeading";
 const ContactLeftSec = () => {
   return (
     <div className="col-md-6 col-sm-12 contact-us-right">

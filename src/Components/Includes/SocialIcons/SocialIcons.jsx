@@ -1,5 +1,5 @@
 import React from 'react'
-import { socialIcons } from '../../Data'
+import { socialIcons } from '../../../Data'
 import './SocialIcons.css'
 const SocialIcons = () => {
   return (

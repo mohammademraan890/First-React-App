@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Logo/Logo";
+import Logo from "../Includes/Logo/Logo";
 import { NavLinks, socialIcons } from "../../Data";
 import "./MobileNav.css";
 import { NavLink } from "react-router-dom";

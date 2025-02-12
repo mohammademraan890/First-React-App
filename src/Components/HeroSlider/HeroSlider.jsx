@@ -1,5 +1,5 @@
 import { HeroSliderData } from "../../Data";
-import Buttons from "../Button/Buttons";
+import Buttons from "../Includes/Button/Buttons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";

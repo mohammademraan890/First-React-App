@@ -1,12 +1,12 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
-import HomePage from "./Pages/HomePage/HomePage";
-import About from "./Pages/AboutPage/About";
-import ServicesPage from "./Pages/ServicesPage/ServicesPage";
-import ContactPage from "./Pages/ContactPage/ContactPage";
+import HomePage from "./Components/Pages/HomePage/HomePage";
+import About from "./Components/Pages/AboutPage/About";
+import ServicesPage from "./Components/Pages/ServicesPage/ServicesPage";
+import ContactPage from "./Components/Pages/ContactPage/ContactPage";
 import "./Responsiveness.css";
-import NotFound from "./Pages/NotFound/NotFound";
+import NotFound from "./Components/Pages/NotFound/NotFound";
 import Layout from "./Components/Layout";
 
 function App() {

@@ -1,8 +1,8 @@
 import React from 'react'
-import CounterImgSec from '../../Components/CounterImgSec/CounterImgSec'
-import CounterCircleSec from '../../Components/CounterCircleSec/CounterCircleSec'
+import CounterImgSec from '../../CounterImgSec/CounterImgSec'
+import CounterCircleSec from '../../CounterCircleSec/CounterCircleSec'
 import './CounterSec.css'
-import SeactionsHeading from '../../Components/SectionsHeading/SeactionsHeading'
+import SeactionsHeading from '../../Includes/SectionsHeading/SeactionsHeading'
 const CounterSec = () => {
   return (
     <div className="counter-section">

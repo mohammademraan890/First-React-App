@@ -1,6 +1,6 @@
 import React from "react";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import { TeamSecData } from "../../Data";
+import { TeamSecData } from "../../../Data";
 import "./TeamCard.css";
 
 const TeamCard = () => {

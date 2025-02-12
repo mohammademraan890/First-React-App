@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSlider from "../../Components/HeroSlider/HeroSlider";
+import HeroSlider from "../../HeroSlider/HeroSlider";
 import PropertiesSec from "../../Layouts/PropertiesSec/PropertiesSec";
 import ProgressSec from "../../Layouts/ProgressSec/ProgressSec";
 

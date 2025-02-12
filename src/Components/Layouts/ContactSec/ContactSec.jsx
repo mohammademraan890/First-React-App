@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactLeftSec from '../../Components/ContactLeftSec/ContactLeftSec'
-import ContactForm from '../../Components/ContactForm/ContactForm'
+import ContactLeftSec from '../../ContactLeftSec/ContactLeftSec'
+import ContactForm from '../../ContactForm/ContactForm'
 import './ContactSec.css'
 const ContactSec = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header/Header";
-import TestimonialSec from "../Layouts/TestimonialSec/TestimonialSec";
-import FooterTop from "../Layouts/FooterTop/FooterTop";
+import Header from "./Includes/Header/Header";
+import TestimonialSec from "./Layouts/TestimonialSec/TestimonialSec";
+import FooterTop from "./Layouts/FooterTop/FooterTop";
 import FooterBtm from "./FooterBtm/FooterBtm";
 import { Outlet } from "react-router-dom";
 const Layout = () => {

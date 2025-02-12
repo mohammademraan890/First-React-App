@@ -2,7 +2,7 @@ import React from "react";
 import "./MenuNav.css";
 import { NavLinks } from "../../Data";
 import { NavLink } from "react-router-dom";
-import SocialIcons from "../SocialIcons/SocialIcons";
+import SocialIcons from "../Includes/SocialIcons/SocialIcons";
 
 const MenuNav = () => {
   return (

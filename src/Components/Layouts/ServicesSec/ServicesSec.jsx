@@ -1,8 +1,8 @@
 import React from "react";
 import "./ServicesSec.css";
-import SeactionsHeading from "../../Components/SectionsHeading/SeactionsHeading";
-import { SrvicesCardsData } from "../../Data";
-import ServiceCard from "../../Components/ServiceCard/ServiceCard";
+import SeactionsHeading from "../../Includes/SectionsHeading/SeactionsHeading";
+import { SrvicesCardsData } from "../../../Data";
+import ServiceCard from "../../Includes/ServiceCard/ServiceCard";
 const ServicesSec = () => {
   return (
     <div className="services-section">

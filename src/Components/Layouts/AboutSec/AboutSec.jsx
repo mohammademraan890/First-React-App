@@ -1,7 +1,7 @@
 import React from 'react'
-import SocialIcons from '../../Components/SocialIcons/SocialIcons'
+import SocialIcons from '../../Includes/SocialIcons/SocialIcons'
 import './AboutSec.css'
-import SeactionsHeading from '../../Components/SectionsHeading/SeactionsHeading'
+import SeactionsHeading from '../../Includes/SectionsHeading/SeactionsHeading'
 const AboutSec = () => {
   return (
     <div className="about-sec">

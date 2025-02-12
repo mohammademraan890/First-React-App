@@ -6,6 +6,7 @@ const About = () => {
     <div>
       <div style={{marginTop: "clamp(30px, 7vw, 60px)"}}>
       <AboutSec  />
+      
       </div>
     </div>
   )
