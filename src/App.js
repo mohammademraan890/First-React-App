@@ -1,7 +1,11 @@
 import "./App.css";
 import { RouterProvider } from "react-router-dom";
-import "./Responsiveness.css";
+
 import routerFiles from "./RouterConfig";
+import "./Responsiveness.css";
+
+
+
 
 function App() {
   return (

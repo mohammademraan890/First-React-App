@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./TopNav.css"
-const TopNav = () => {
+export const TopNav = () => {
   return (
     <div className="topnav">
     <div className=" custom-container topnav-container d-flex justify-content-between align-items-center">
@@ -33,4 +33,4 @@ const TopNav = () => {
   )
 }
 
-export default TopNav
+
