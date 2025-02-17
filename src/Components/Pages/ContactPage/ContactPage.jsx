@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactSec from '../../Layouts/ContactSec/ContactSec'
+import {ContactSec} from '../../../imports'
  const ContactPage = () => {
   return (
     <div>

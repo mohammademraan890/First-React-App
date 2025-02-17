@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProgressBarSec.css";
-import ProgressBar from "../ProgressBar/ProgressBar";
+import {ProgressBar} from "../../../imports";
 import { ProgressBarsData } from "../../../Data";
 const ProgressBarSec = () => {
   return (

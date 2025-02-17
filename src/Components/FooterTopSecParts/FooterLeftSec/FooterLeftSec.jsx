@@ -1,7 +1,7 @@
 import React from "react";
 import "./FooterLeftSec.css";
-import Logo from "../../Includes/Logo/Logo";
-import SocialIcons from "../../Includes/SocialIcons/SocialIcons";
+import {Logo} from "../../../imports";
+import {SocialIcons} from "../../../imports";
 const FooterLeftSec = () => {
   return (
     <div className="footer-left-sec">

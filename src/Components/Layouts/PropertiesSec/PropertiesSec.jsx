@@ -1,6 +1,6 @@
 import React from 'react'
 import { PropertyCardsData } from '../../../Data'
-import ServiceCard from '../../Includes/ServiceCard/ServiceCard'
+import {ServiceCard} from '../../../imports'
 import './PropertiesSec.css'
 const PropertiesSec = () => {
   return (

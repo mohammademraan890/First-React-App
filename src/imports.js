@@ -1,4 +1,5 @@
-import { lazy } from "react";  // ✅ Import lazy first
+// import { lazy } from "react"; 
+import Logo from "./Components/Includes/Logo/Logo"
 import CenterNav from "./Components/CenterNav/CenterNav";
 import ContactForm from "../src/Components/ContactSecParts/ContactForm/ContactForm";
 import ContactLeftSec from "./Components/ContactSecParts/ContactLeftSec/ContactLeftSec";
@@ -37,13 +38,14 @@ import ProgressBarSec from "./Components/ProgressSecParts/ProgressBarSec/Progres
 import ProgressLeftSec from "./Components/ProgressSecParts/ProgressLeftSec/ProgressLeftSec";
 import TestimonialLeft from "./Components/TestimonialSecParts/TestimonialLeft/TestimonialLeft";
 import TestimonialSlider from "./Components/TestimonialSecParts/TestimonialSlider/TestimonialSlider";
+import NotFound from "./Components/Pages/NotFound/NotFound"
 import { TopNav } from "./Components/TopNav/TopNav";
 
-// ✅ Lazy import after all static imports
-const Logo = lazy(() => import("./Components/Includes/Logo/Logo"));
+// const Logo = lazy(() => import("./Components/Includes/Logo/Logo"));
 
 export {
   Logo,
+  NotFound,
   CenterNav,
   ContactForm,
   ContactLeftSec,

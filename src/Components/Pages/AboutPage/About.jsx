@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutSec from '../../Layouts/AboutSec/AboutSec'
+import {AboutSec} from '../../../imports'
 
 const About = () => {
   return (

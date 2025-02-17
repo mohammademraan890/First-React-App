@@ -1,5 +1,5 @@
 import React from 'react'
-import ServicesSec from '../../Layouts/ServicesSec/ServicesSec'
+import {ServicesSec} from '../../../imports'
 
 const ServicesPage = () => {
   return (

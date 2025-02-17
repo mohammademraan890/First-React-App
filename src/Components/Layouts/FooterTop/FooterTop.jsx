@@ -1,6 +1,6 @@
 import React from "react";
-import FooterLeftSec from "../../FooterTopSecParts/FooterLeftSec/FooterLeftSec";
-import FooterRightSec from "../../FooterTopSecParts/FooterRightSec/FooterRightSec";
+import {FooterLeftSec} from "../../../imports";
+import {FooterRightSec} from "../../../imports";
 import "./FooterTop.css";
 const FooterTop = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import MobileNav from "../../MobileNav/MobileNav"
-import CenterNav from "../../CenterNav/CenterNav"
-import MenuNav from "../../MenuNav/MenuNav"
+import {MobileNav} from "../../../imports"
+import {CenterNav} from "../../../imports"
+import {MenuNav} from "../../../imports"
 import {TopNav} from "../../TopNav/TopNav"
 import "./Header.css";
 

@@ -1,6 +1,6 @@
 import React from 'react'
-// import {ContactLeftSec} from '../../../imports'
-import ContactLeftSec from '../../ContactSecParts/ContactLeftSec/ContactLeftSec'
+import {ContactLeftSec} from '../../../imports'
+// import ContactLeftSec from '../../ContactSecParts/ContactLeftSec/ContactLeftSec'
 
 import ContactForm from '../../ContactSecParts/ContactForm/ContactForm'
 import './ContactSec.css'

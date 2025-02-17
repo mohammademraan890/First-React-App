@@ -1,6 +1,5 @@
-// import React, { Suspense } from "react";
-// import {Logo} from '../../imports'
-import Logo from "../Includes/Logo/Logo";
+import {Logo} from '../../imports'
+// import Logo from "../Includes/Logo/Logo";
 import "./CenterNav.css";
 const CenterNav = () => {
   return (

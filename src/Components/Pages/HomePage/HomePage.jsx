@@ -1,9 +1,9 @@
 import React from "react";
-import HeroSlider from "../../HeroSlider/HeroSlider";
-import PropertiesSec from "../../Layouts/PropertiesSec/PropertiesSec";
-import ProgressSec from "../../Layouts/ProgressSec/ProgressSec";
+import {HeroSlider} from "../../../imports";
+import {PropertiesSec} from "../../../imports";
+import {ProgressSec} from "../../../imports";
 
-import ServicesSec from "../../Layouts/ServicesSec/ServicesSec";
+import {ServicesSec} from "../../../imports";
 
 const HomePage = () => {
   return (

@@ -1,14 +1,22 @@
-import React from "react";
-import Header from "./Includes/Header/Header";
-import TestimonialSec from "./Layouts/TestimonialSec/TestimonialSec";
-import FooterTop from "./Layouts/FooterTop/FooterTop";
-import FooterBtm from "./FooterBtm/FooterBtm";
-import { Outlet } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Header } from "../imports";
+import { TestimonialSec } from "../imports";
+import { FooterTop } from "../imports";
+import { FooterBtm } from "../imports";
+import { Outlet, useLocation } from "react-router-dom";
+function ScrollToTop() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  console.log(location);
+}
 const Layout = () => {
   return (
     <div>
+      <ScrollToTop />
       <Header />
-        <Outlet />
+      <Outlet />
       <TestimonialSec />
       <FooterTop />
       <FooterBtm />

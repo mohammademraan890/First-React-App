@@ -1,5 +1,5 @@
 import React from "react";
-import FooterLinks from "../FooterLinks/FooterLinks";
+import {FooterLinks} from "../../../imports";
 import "./FooterRightSec.css";
 const FooterRightSec = () => {
   return (

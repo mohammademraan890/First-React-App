@@ -1,6 +1,6 @@
 import React from "react";
 import "./ServiceCard.css";
-import ServicesBtn from "../ServicesBtn/ServicesBtn";
+import {ServicesBtn} from "../../../imports";
 const ServiceCard = ({svg1,title,desc , showHover=false , showBtn=false}) => {
   return (
     <div className=" properties-section-card d-flex text-start flex-column ">

@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamCard from '../../Includes/TeamCard/TeamCard'
+import {TeamCard} from '../../../imports'
 import './TeamSec.css'
 const TeamSec = () => {
   return (
