@@ -12,6 +12,7 @@ const HeroSlider = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={10}
+          grabCursor={true}
           slidesPerView={1}
           navigation
           loop

@@ -4,7 +4,7 @@ import {TestimonialSlider} from '../../../imports'
 import './TestimonialSec.css'
 const TestimonialSec = () => {
   return (
-    <div className="testimonial-sec">
+    <div className="testimonial-sec" id='testimonial'>
     <div className=" custom-container testimonial-sec-container">
         <div className="row g-0 d-flex align-items-start">
             <div className="col-md-6 col-sm-12">

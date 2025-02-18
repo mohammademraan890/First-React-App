@@ -4,11 +4,14 @@ import {NotFound} from "./imports";
 import { HomePage } from "./imports";
 import Loader from "./Components/loader/Loader";
 
+
 // Lazy loading components
 const Layout = lazy(() => import("./Components/Layout"));
 const ServicesPage = lazy(() => import("./Components/Pages/ServicesPage/ServicesPage"));
 const Contact = lazy(() => import("./Components/Pages/ContactPage/ContactPage"));
 const About = lazy(() => import("./Components/Pages/AboutPage/About"));
+
+
 
 const routerFiles = createBrowserRouter([
 

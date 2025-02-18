@@ -12,6 +12,7 @@ const TestimonialSlider = () => {
       <Swiper
         spaceBetween={30}
         slidesPerView={1}
+        grabCursor={true}
         loop={true}
         navigation={{
           nextEl: ".swiper-next",
